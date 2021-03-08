@@ -3,6 +3,7 @@
 	height: 1056px;
 	width: 816px;
 	background-color: white;
+    color: rgb(24, 129, 170);
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -10,6 +11,16 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: lightgray;
+    font-size: 14px;
+}
+
+i {
+    color: midnightblue;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(38, 169, 221);
 }
 
 .header {
@@ -24,16 +35,8 @@ body {
     width: 25%;
 }
 
-a {
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.header i {
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+.header-left i {
+    padding: 3px 5px 0px 0px;
     width: 16px;
 }
 
@@ -49,6 +52,111 @@ a {
 }
 
 .header-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 10px;
     width: 25%;
+    text-align: right;
+}
+
+.header-right i {
+    padding: 3px 0px 0px 5px;
+    width: 16px;
+}
+
+.header-links {
+    font-size: 16px;
+}
+
+.section {
+    padding: 10px;
+}
+
+.section-header {
+    border-bottom: 2px solid;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section-header i {
+    width: 25px;
+    padding-right: 5px;
+}
+
+.item-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.item-title {
+    width: 33%;
+}
+
+.item-role {
+    text-align: center;
+}
+
+.item-date {
+    width: 33%;
+    text-align: right;
+}
+
+.item ul {
+    padding-left: 20px;
+    margin: 2px 0px 0px 0px;
+    color: #211F1F;
+}
+
+.item p {
+    color: #211F1F;
+}
+
+.skills-content {
+    padding-top: 5px;
+}
+
+.item {
+    overflow: auto;
+}
+
+.item-inline {
+    padding-top: 3px;
+}
+
+.item-inline-header {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.inline-img {
+    width: 96px;
+    height: 96px;
+    margin-top: 0.7em;
+    margin-bottom: 0em;
+    margin-right: 7px;
+    float: left;
+    border-radius: 48px;
+    shape-outside: circle(46% at 53px 58px);
+}
+
+p {
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+}
+
+.fa-github {
+    color: #211F1F;
+}
+
+.fa-linkedin {
+    color: #0077B5;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
 }
