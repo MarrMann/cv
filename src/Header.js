@@ -4,15 +4,15 @@ function Header(){
             <div className="header-left header-links">
                 <div>
                     <i className="far fa-envelope" />
-                    <a href="mailto:mail@example.com@example.com">mail@example.com</a>
+                    <a href="mailto:mail@example.com">mail@example.com</a>
                 </div>
                 <div>
                     <i className="fa fa-phone" />
-                    <a href="tel:+123456789">[REDACTED]</a>
+                    <a href="tel:12345678">12345678</a>
                 </div>
                 <div>
                     <i class="fas fa-map-marker-alt" />
-                    <a href="http://maps.google.com/?q=København+S">København S</a>
+                    <a href="http://maps.google.com/?q=location">Location</a>
                 </div>
             </div>
             <div className="header-center">

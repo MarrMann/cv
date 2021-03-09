@@ -35,8 +35,7 @@ function Experience(){
                     <div className="item-date">Sep 2019 - Oct 2019</div>
                 </div>
                 <ul>
-                    <li>Developed multiplayer games to be played in cinemas as gamified commercial before the movie</li>
-                    <li>Implemented lag compensation for cinema games</li>
+                    <li>Developed multiplayer games to be played in cinemas as gamified commercials before the movie</li>
                     <li>Developed branded mobile games and prototypes</li>
                     <li>Maintained and fixed several existing games</li>
                     <li>Wrote custom shaders</li>
@@ -52,8 +51,8 @@ function Experience(){
                     <li>Worked on 5+ mobile games from initial creation to published game</li>
                     <li>Developed and maintained a shared code base between several games</li>
                     <li>Develop internal tools for developers, designers, and artists</li>
-                    <li>Wrote custom shaders</li>
                     <li>Personally took action to improve monetization threefold</li>
+                    <li>Wrote custom shaders</li>
                 </ul>
             </div>
             <div className="item">

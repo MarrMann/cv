@@ -16,7 +16,7 @@ function Skills(){
                 </div>
                 <div className="item-inline">
                     <span className="item-inline-header">Concepts:</span>
-                    <span className="item-inline-content">Agile, Research, SAFe, SCRU, SOLID design, Team management</span>
+                    <span className="item-inline-content">Agile, Research, SAFe, SCRUM, SOLID design, Team management</span>
                 </div>
             </div>
         </div>

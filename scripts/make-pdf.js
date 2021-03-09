@@ -8,7 +8,6 @@ const puppeteer = require('puppeteer');
 		waitUntil: "networkidle2"
 	});
 
-
 	await page.pdf({
 		path: "output/resume.pdf",
 		format: "Letter",
